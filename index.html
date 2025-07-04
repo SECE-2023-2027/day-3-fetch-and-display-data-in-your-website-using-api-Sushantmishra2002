@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="black" text="white">
+
+<center>
+
+<h1>Fetch and display data in website using api.</h1>
+<h2>----------------------------------------------------------------------------</h2>
+
+<!-- Inputs and button for range fetching -->
+<br><br>
+<label for="start">Start ID:</label>
+<input type="number" id="start" name="start">
+<label for="end">End ID:</label>
+<input type="number" id="end" name="end">
+<button id="getDataBtn">Fetch Range</button>
+
+<div id="datas"></div><br><br>
+
+<!-- now the data should be displayed in the table format -->
+<table id="data-table" border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>User ID</th>
+            <th>Completed</th>
+        </tr>
+    </thead>
+    <tbody id="table-body">
+        <!-- Data will be inserted here -->
+    </tbody>
+</table>
+</center>
+</body>
+<script src="script.js"></script>
+</html>
